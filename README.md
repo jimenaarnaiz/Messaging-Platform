@@ -23,37 +23,37 @@ users
  ```
 Displays the list of users currently active on the platform.
 
-3. Remove a user
+2. Remove a user
 ```bash
 remove <username>
 ```
 Allows the manager to remove a user from the platform.
 
-5. List topics on the platform
+3. List topics on the platform
 ```
 topics
 ```
 Displays the names of existing topics and the number of persistent messages in each.
 
-7. List messages of a specific topic
+4. List messages of a specific topic
 ```
 show <topic>
 ```
 Displays all persistent messages from the specified topic.
 
-9. Lock a topic
+5. Lock a topic
 ```bash
 lock <topic>
 ```
 Blocks new messages from being sent to the specified topic.
 
-11. Unlock a topic
+6. Unlock a topic
 ```bash
 unlock <topic>
 ```
 Allows messages to be sent again to a previously locked topic.
 
-12. Shut down the platform
+7. Shut down the platform
 ```bash
 close
 ```
@@ -69,25 +69,25 @@ topics
 
 Displays the names of existing topics and the number of persistent messages in each.
 
-3. Send a message to a specific topic
+2. Send a message to a specific topic
 ```bash
 msg <topic> <duration> <message>
 ```
 Allows a client to send a message to a given topic. Subscription to the topic is not required to send messages.
 
-5. Subscribe to a topic
+3. Subscribe to a topic
 ```bash
 subscribe <topic>
 ```
 Allows a client to subscribe to a specific topic and receive its messages.
 
-7. Unsubscribe from a specific topic
+4. Unsubscribe from a specific topic
 ```bash
 unsubscribe <topic>
 ```
 Allows a client to unsubscribe from a topic.
 
-9. Exit the platform, terminating the feed process
+5. Exit the platform, terminating the feed process
 ```bash
 exit
 ```
